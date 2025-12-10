@@ -22,11 +22,12 @@ currency_pipeline/
 
 ### Tools Used
 
-**Python & requests**: For HTTP API calls and response handling.
-
-**SQLite**: Lightweight relational database for storing structured exchange rate data.
-
-**Modular Architecture**: Separation of concerns across multiple modules (fetch, transform, load) following ETL design patterns.
+- **Language**: Python
+- **Database**: SQLite
+- **Python Libraries**:
+  - `logging`: For logging the execution processes.
+  - `requests`: For interacting with the API.
+  - `datetime`: For providing timestamp.
 
 ## Data Pipeline Architecture
 
